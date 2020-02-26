@@ -2,6 +2,5 @@
     "window.menuBarVisibility": "hidden",
     "window.zoomLevel": 1,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontLigatures": true,
-    "workbench.colorTheme": "Default Light+"
+    "editor.fontLigatures": true
 }
