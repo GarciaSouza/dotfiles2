@@ -16,6 +16,11 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+map <C-v> :vsplit<CR>
+map <C-h> :split<CR>
+map <C-t> :tabnew<CR>
+map <C-q> :q<CR>
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
