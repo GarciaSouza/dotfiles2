@@ -1,0 +1,21 @@
+Linux Commands
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+cat /sys/block/sda/queue/rotational
+-- You should get 1 for hard disks and 0 for a SSD. 
+
+find . -maxdepth 2 -name node_modules -type d -exec rm -rf {} +
+
+docker run --rm -it -v "${PWD}:/files" mysql /bin/bash
+
+apt --fix-broken install
+apt autoremove
+
+awk '{ printf "\""; print }' loanids.txt | sed 's/$/",/'
+
+VsCode - Select all occurrences of selected word -> Ctrl + Shift + L
+
+data:application/pdf;base64,
+
+synclient TouchpadOff=0
